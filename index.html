@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Soberano Trader</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Soberano Trader</h1>
+        <p>Disciplina, Gestão e Consistência.</p>
+        <div id="painel">
+            <p>Operações de hoje: <span id="operacoes">0</span> / <span id="limiteOperacoes">5</span></p>
+            <p>Prejuízo de hoje: <span id="prejuizo">0</span> ZAR / <span id="limitePrejuizo">100</span> ZAR</p>
+            <button onclick="realizarOperacao()">Executar Operação</button>
+            <button onclick="resetarDia()">Resetar Dia</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
